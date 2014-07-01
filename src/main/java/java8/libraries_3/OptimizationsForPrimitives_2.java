@@ -5,7 +5,7 @@ import java8.testdata_0.SampleData;
 
 import java.util.IntSummaryStatistics;
 
-public class OptimizationsForPrimitives_1 {
+public class OptimizationsForPrimitives_2 {
 
   public static void main(String[] args) {
     Album album = SampleData.manyTrackAlbum;
