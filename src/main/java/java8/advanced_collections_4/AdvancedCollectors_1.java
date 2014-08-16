@@ -10,10 +10,14 @@ import java.util.stream.Collectors;
 
 public class AdvancedCollectors_1 {
     public static void main(String[] args) {
-        OptionalDouble average1 = SampleData.albums.mapToInt(album -> album.getTrackList().size()).average();
-        System.out.println(average1);
-
-//        Double average2 = SampleData.albums.collect(Collectors.averagingInt(album -> album.getTrackList().size()));
-//        System.out.println(average2);
+      average();
     }
+
+  private static void average() {
+    OptionalDouble average1 = SampleData.albums.mapToInt(album -> album.getTrackList().size()).average();
+    System.out.println(average1);
+
+    Double average2 = SampleData.albums.collect(Collectors.averagingInt(album -> album.getTrackList().size()));
+    System.out.println(average2);
+  }
 }
