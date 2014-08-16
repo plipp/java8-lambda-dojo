@@ -9,7 +9,7 @@ import java.util.function.Predicate;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 
-public class FilterUsingReduceAdvanced_2Test {
+public class FilterUsingReduceAdvanced_5Test {
 
     @Test
     public void emptyList() {
