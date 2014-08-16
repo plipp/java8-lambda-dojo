@@ -78,4 +78,12 @@ public final class Album implements Performance {
         return new Album(name, tracks, musicians);
     }
 
+  @Override
+  public String toString() {
+    return "Album{" +
+      "name='" + name + '\'' +
+      ", tracks=" + tracks +
+      ", musicians=" + musicians +
+      '}';
+  }
 }
