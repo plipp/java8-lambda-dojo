@@ -16,4 +16,8 @@ public interface BiFunctionWithCurrying<T, U, R> extends BiFunction<T, U, R>{
   default Function<U,R> curry2 (T t) {
     return u -> apply(t, u); // short version with lambda-expression
   }
+
+  default <S> BiFunctionWithCurrying<S,U,R> compose (Function<S, ? extends T> before) {
+    return (s, u) -> this.apply(before.apply(s), u);
+  }
 }
