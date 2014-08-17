@@ -33,7 +33,8 @@ public class AdvancedCollectors_1 {
     Optional<Track> shortestTrack1 = SampleData.aLoveSupreme.getTracks().min(Comparator.comparing(t -> t.getLength()));
 //    System.out.println("shortestTrack1 = " + shortestTrack1);
 
-    Optional<Track> shortestTrack2 = SampleData.aLoveSupreme.getTracks().collect(Collectors.minBy(Comparator.comparing(t -> t.getLength())));
+    Optional<Track> shortestTrack2 =
+      SampleData.aLoveSupreme.getTracks().collect(Collectors.minBy(Comparator.comparing(t -> t.getLength())));
 //    System.out.println("shortestTrack2 = " + shortestTrack2);
   }
 
