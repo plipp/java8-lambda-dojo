@@ -22,6 +22,7 @@ public class SampleData {
     public static final Album aLoveSupreme = new Album("A Love Supreme", asList(new Track("Acknowledgement", 467), new Track("Resolution", 442)), asList(johnColtrane));
 
     public static final Album sampleShortAlbum = new Album("sample Short Album", asList(new Track("short track", 30)), asList(johnColtrane));
+    public static final Album beatlesAlbum = new Album("sample Short Album", asList(new Track("short track", 30)), asList(johnLennon,paulMcCartney));
 
     public static final Album manyTrackAlbum = new Album("sample Short Album", asList(new Track("short track", 30), new Track("short track 2", 30), new Track("short track 3", 30), new Track("short track 4", 30), new Track("short track 5", 30)), asList(johnColtrane));
 

@@ -36,4 +36,11 @@ public final class Track {
         return new Track(name, length);
     }
 
+  @Override
+  public String toString() {
+    return "Track{" +
+      "name='" + name + '\'' +
+      ", length=" + length +
+      '}';
+  }
 }
