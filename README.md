@@ -8,6 +8,10 @@ To follow the exercises:
  - ensure you have a correctly configured IDE project (Java8)
  - read the book
  - find solutions
+
+Additional exercises can be found in package:
+
+ - `euler_99` with problems from [Project Euler](https://projecteuler.net/problems)
  
 ## Further Links
  
