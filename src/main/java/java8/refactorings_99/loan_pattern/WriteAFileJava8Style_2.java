@@ -10,7 +10,7 @@ import java.util.function.Consumer;
  * Java code for writing a file before Java7
  */
 public class WriteAFileJava8Style_2 {
-  public static void use (String file, Consumer<FileWriter> writer) {
+  public static void use (String file, Consumer<FileWriter> lendee) {
     // TODO
   }
 
