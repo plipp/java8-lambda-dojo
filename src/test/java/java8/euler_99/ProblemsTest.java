@@ -20,7 +20,7 @@ public class ProblemsTest {
 
   @Test
   public void smallestMultipleWithMaxDiv10() throws Exception {
-    assertThat(Problems.smallestMultiple(10), is(2520));
+    assertThat(Problems.smallestMultiple(10), is(2520L));
   }
 
   @Test @Ignore("Find the solution")
@@ -39,12 +39,22 @@ public class ProblemsTest {
   }
 
   @Test
-  public void digitSumFor2Power10() throws Exception {
-    assertThat(Problems.powerDigitSum(10), is(26));
+  public void digitSumFor2Power15() throws Exception {
+    assertThat(Problems.powerDigitSum(15), is(26));
   }
 
   @Test @Ignore("Find the solution")
   public void digitSumFor2Power1000() throws Exception {
     assertThat(Problems.powerDigitSum(1000), is(1000));
+  }
+
+  @Test
+  public void factorialDigitSumOf10() throws Exception {
+    assertThat(Problems.factorialDigitSum(10), is(27));
+  }
+
+  @Test  @Ignore("Find the solution")
+  public void factorialDigitSumOf100() throws Exception {
+    assertThat(Problems.factorialDigitSum(100), is(1000));
   }
 }
