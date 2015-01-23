@@ -17,3 +17,8 @@ Additional exercises can be found in package:
  
  - The original [Sources to Java 8 Lambdas, Richard Warburton](https://github.com/RichardWarburton/java-8-lambdas-exercises.git)
  - [Java 8 Lambda Expression Dojo by Martin Gruhn](https://github.com/martingruhn/lambda-tutorial.git)
+
+
+ - Cheatsheets
+    + [Java8 Lambda Basics](http://www.java8.org/introduction-to-java-8-lambda-expressions.html)
+    + [Java8 Lambdas, Streams ...](http://www.java8.org/)
